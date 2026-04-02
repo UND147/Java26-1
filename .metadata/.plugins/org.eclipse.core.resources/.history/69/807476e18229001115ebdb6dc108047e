@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class PrgIfElse {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		// 입력 받은 데이터의 홀수, 짝수 판단
+				int iNo;
+				String sResult;
+				
+				System.out.println("정수 입력");
+				iNo = sc.nextInt();
+				
+				//삼항연산자 
+//				sResult = (iNo % 2) == 0 ? "짝수" : "홀수";
+//				System.out.println(sResult + "입니다");
+				
+				//if else로 판단
+				if((iNo%2) == 0) 
+				{
+					sResult = "짝수";
+				} 
+				else 
+				{
+					sResult = "홀수";
+				}
+				System.out.println(sResult + "입니다");
+				sc.close();
+	}
+
+}

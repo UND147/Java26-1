@@ -1,0 +1,19 @@
+
+public class SumAvgPrg {
+
+	public static void main(String[] args) {
+		int iNo, iSum, iMin, iAvg;
+		
+		iSum = 0;
+		iMin = 0;
+		
+		for(int i=1; i<11; i++) {
+			iSum = iSum + i;
+		}
+		for(int i=10)
+		iAvg = iSum / 10;
+		System.out.println(iSum);
+		System.out.println(iAvg);
+	}
+
+}

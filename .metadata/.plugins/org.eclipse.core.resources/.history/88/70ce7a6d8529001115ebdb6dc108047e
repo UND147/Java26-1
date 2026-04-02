@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class GradePrg {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		int iScore;
+		char cGrade;
+		
+		System.out.println("성적을 입력: ");
+		iScore = scan.nextInt();
+		if (iScore>=90) {
+			cGrade = 'A';
+		} else if (iScore >= 80) {
+			cGrade = 'B';
+		} else if (iScore >= 70) {
+			cGrade = 'C';
+		} else if(iScore >= 60 ) {
+			cGrade = 'D';
+		} else {
+			cGrade = 'F';
+		}
+		System.out.println("당신의 학점은: " + cGrade);
+		if(cGrade == 'A') {
+			System.out.println("장학금 대상자입니다.");
+		}
+		scan.close();
+	}
+}
