@@ -22,3 +22,10 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+/.metadata/
+# Eclipse 관련 설정 제외
+.metadata/
+.recommenders/
+bin/
+tmp/
+*.log
