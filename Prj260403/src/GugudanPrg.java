@@ -18,7 +18,8 @@ public class GugudanPrg {
 				System.out.print(iDan + " * " + iNum + " = " + iRes);
 				System.out.print("\t");
 			}
-			System.out.println();
+			System.out.println(); 
+			System.out.println(">"+iDan+"수");
 		}
 	}
 	public static void main(String[] args) {
